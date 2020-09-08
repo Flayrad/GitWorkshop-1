@@ -20,25 +20,10 @@ public class Main
             option = scanner.nextInt();
 
             switch (option) {
-            //put your case below this comment
-                case 1:
-                    order.addChickenSandwich();
-                    break;
-                case 2:
-                    order.addDrink();
-                    break;
-                case 3: 
-                    order.addFries();
-                    break; 
-                case 4:
-                    order.addSalad();
-                    break;
-                case 5:
-                    order.addShake();
-                    break;
                 case 0:
                     order.printOrder();
                     break;
+                //put your case below this comment
             }
         }
     }
